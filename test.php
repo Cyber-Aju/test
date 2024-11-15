@@ -6,7 +6,7 @@ function getProjects()
     $users = $client->getApi('issue')->all();
     // $users = $client->getApi('project')->show('5');
     // (['limit' => 50, 'offset' => 50]);
-    // print_r($users);
+    print_r($users);
     // $projects = [
     //     'cms', 'cbt', 'b2b'
     // ];
