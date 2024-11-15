@@ -13,4 +13,10 @@ function getProjects()
     return json_encode($users);
 }
 
+function commitStatus()
+{
+    // Jenkin response curl 
+    // $groupedData;
+    $jenkinResponsePath = APPPATH . 'views/releaseManagement/jenkinResponse.json';
+    if (file_exists($jenkinResponsePath)) {
 ?>
