@@ -17,7 +17,6 @@ function groupByCommits($jenkinResponse)
         'upto_live' => [],
         'test_skipped' => [],
         'uat_skipped' => [],
-        'prelive_skipped' => []
     ];
 
     foreach ($jenkinResponseArray as $key => $value) {
