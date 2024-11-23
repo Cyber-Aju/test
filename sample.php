@@ -95,5 +95,6 @@ function groupByCommits($jenkinResponse)
     $data = [$group_data, $stat];
     return $data;
     echo "Hello, World!\n";
+    echo "Hello, Universe!\r\n";
 }
 ?>
