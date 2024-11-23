@@ -94,5 +94,6 @@ function groupByCommits($jenkinResponse)
     $group_data = $newGroupdata;
     $data = [$group_data, $stat];
     return $data;
+    echo "Hello, Universe!\r\n";
 }
 ?>
